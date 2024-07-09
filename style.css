@@ -1,0 +1,130 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"SF PRO DISPLAY";
+}
+*::-webkit-scrollbar{
+    display:none;
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+#page1{
+    height:100vh;
+    width:100%;
+    background-color:#080808;
+}
+/* #page2{
+    height:100vh;
+    width:100%;
+    background-color:crimson;
+} */
+#page1 #nav{
+    height:80px;
+    width: 100%;
+    /* background-color:lightgrey; */
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:0 70px;
+}
+#page1 #nav #middnav{
+    display:flex;
+    gap:25px;
+    font-size:16px;
+}
+#middnav h3{
+    font-weight:490;
+    cursor:pointer;
+    color:#828787;
+}
+#nav h2{
+    font-size:25px;
+    text-transform: uppercase;
+    cursor:pointer;
+    font-weight:600;
+    color:#83A11B;
+    letter-spacing:-1px;
+}
+#nav button{
+    padding:10px 20px;;
+    border-radius:11px;
+    font-size:16px;
+    background-color: #B9FD03;
+    color:#000;
+    font-weight:500;
+    border:none;
+    cursor:pointer;
+}
+#page1 #hero{
+    height:calc(100% - 80px);
+    width: 100%;
+    /* background-color:pink; */
+    display:flex;
+}
+#hero #left{
+    height: 100%;
+    width:50%;
+    /* background-color:#dadada; */
+    padding-left:75px;
+    padding-top:40px;
+}
+#hero #right{
+    height:100%;
+    width:50%;
+    /* background-color:yellow; */
+}
+#left h2{
+    margin-top:70px;
+    font-size:27px;
+    font-weight:500;
+    margin-bottom:30px;
+    color:#C4C8C9;
+}
+#left .common{
+    color:#99C821;
+}
+#left h1{
+    font-size:75px;
+    font-weight:500;
+    line-height:1;
+    color:#C4C8C9;
+    margin-bottom:-20px;
+    margin-left:-2px;
+}
+#left p{
+    margin-top:30px;
+    font-weight:400;
+    font-size:15px;
+    opacity:0.85;
+    color:#C4C8C9;
+    margin-left:3px;
+    position:absolute;
+    left:10%;
+}
+#right img{
+    height: 80%;
+    width:80%;
+    object-fit:cover;
+    margin-left:20px;
+    margin-top:50px;
+}
+#left img{
+    height:18%;
+    width:25%;
+    margin-left:-15px;
+}
+#left i{
+  color: red;
+  font-size:40px;
+  background-color:#B9FB08;
+  padding:10px;
+  border-radius:50%;
+  position:absolute;
+  left:70px;
+  bottom:9.85%;
+  color:#000;
+  cursor:pointer;
+}
